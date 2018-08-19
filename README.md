@@ -2,11 +2,11 @@
 
 A service for processing social media posts and keeping track of word frequencies per social media account.
 
-# API Reference
+## API Reference
 
 This is a RESTFUL JSON-based API.
 
-## POST `/api/v1/web_hooks/notifications` Accepting new Notifications Web Hook
+### POST `/api/v1/web_hooks/notifications` Accepting new Notifications Web Hook
 
 Request body:
 
@@ -22,7 +22,7 @@ Request body:
 
 Returns 200 OK when received.
 
-# Installation
+## Installation
 
 Ensure you have Ruby version 2.4 before continuing.
 
@@ -33,7 +33,7 @@ Ensure you have Ruby version 2.4 before continuing.
 5. Create development database `rake db:create && rake db:migrate`
 6. Create test database `rake db:create RAILS_ENV=test && rake db:migrate RAILS_ENV=test`
 
-# Launching the server
+## Launching the server
 
 Run the following command in the root directory.
 
@@ -41,7 +41,7 @@ Run the following command in the root directory.
 rails s
 ```
 
-# Testing
+## Testing
 
 To run the test suite, run the following command in the root directory.
 
