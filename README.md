@@ -21,6 +21,8 @@ Request body:
 }
 ```
 
+`"timestamp"` is in the ISO 8601 format.
+
 Returns 200 OK when received.
 
 ## Installation
