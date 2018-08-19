@@ -4,7 +4,7 @@ A service for processing social media posts and keeping track of word frequencie
 
 ## API Reference
 
-This is a RESTFUL JSON-based API.
+This is a RESTful JSON-based API.
 
 ### Accepting new Notifications Web Hook
 ### POST `/api/v1/web_hooks/notifications` 
