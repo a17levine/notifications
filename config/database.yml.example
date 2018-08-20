@@ -1,6 +1,6 @@
 development: &default
   adapter: postgresql
-  username: alexlevine
+  username: myusername
   database: notifications
   port: 5432
   host: localhost
@@ -8,7 +8,7 @@ test:
   adapter: postgresql
   database: notifications_test
   min_messages: WARNING
-  username: 'alexlevine'
+  username: 'myusername'
   password: ''
   host: localhost
 production:
